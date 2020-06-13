@@ -8,13 +8,13 @@
 ## 安装
 
 ```js
-npm install wheels-ada
+npm install smile-ui-xxg
 ```
 
 或者：
 
 ```js
-yarn add wheels-ada
+yarn add smile-ui-xxg
 ```
 
 ## 引用

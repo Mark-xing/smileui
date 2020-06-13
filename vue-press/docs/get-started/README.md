@@ -17,7 +17,7 @@ IE 8 及以上浏览器支持此样式。 -->
 
 ## 引入 smile-ui-xxg
 
-```SQL
+```
 import smileui from "smile-ui-xxg";
 import "smile-ui-xxg/dist/smile-ui.css";
 Vue.use(smileui);
