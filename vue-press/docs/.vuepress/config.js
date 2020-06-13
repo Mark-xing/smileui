@@ -9,9 +9,9 @@ module.exports = {
             { text: "主页", link: "/" },
             {
                 text: "欢迎 Star",
-                link: "https://github.com/Adashuai5/wheels-ada/",
+                link: "https://github.com/Mark-xing",
             },
-            { text: "Github", link: "https://github.com/Adashuai5/" },
+            { text: "Github", link: "https://github.com/Mark-xing/smileui" },
         ],
         // 为以下路由添加侧边栏
         sidebar: [

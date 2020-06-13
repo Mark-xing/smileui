@@ -8,11 +8,11 @@ smile UI 是一个好用的 UI 框架，提供了一些常用组件，适合 PC 
 
 ## 文档
 
-[官方文档](https://adashuai5.github.io/wheels-ada/)
+[官方文档](https://github.com/Mark-xing/smileui)
 
 ## 提问
 
-[Issues](https://github.com/Adashuai5/wheels-ada/issues)
+[Issues](https://github.com/Mark-xing/smileui/issues)
 
 ## 联系方式
 
@@ -20,4 +20,4 @@ smile UI 是一个好用的 UI 框架，提供了一些常用组件，适合 PC 
 
 ## 贡献代码
 
-[Pull request](https://github.com/Adashuai5/wheels-ada/pulls)
+[Pull request](https://github.com/Mark-xing/smileui)
