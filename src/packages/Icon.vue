@@ -4,7 +4,7 @@
     </svg>
 </template>
 <script>
-import "../styles/icon";
+import "./icon";
 export default {
     name: "sm-icon",
     props: {

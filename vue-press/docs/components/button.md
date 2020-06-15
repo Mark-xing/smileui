@@ -29,83 +29,108 @@
 :::
 </demo-block>
 
-## 图标按钮
+## 优化按钮
 
-带图标的按钮可增强辨识度（有文字）或节省空间（无文字）
+增加特效后 sm-buttonpus 组件，使用感受优化
 
 <demo-block>
 ::: slot source
 <button-test2></button-test2>
 :::
 
-使用 type 属性来定义 Button 的样式。
+直接调用 sm-buttonpus 组件
 
 ::: slot highlight
 
 ```
 <div>
-    <sm-button icon="edit">编辑</sm-button>
-    <sm-button icon="edit"></sm-button>
+    <sm-buttonpus>open</sm-buttonpus>
+    <sm-buttonpus>create file</sm-buttonpus>
+    <sm-buttonpus>download</sm-buttonpus>
 </div>
 ```
 
 :::
 </demo-block>
 
-## 加载中
+## 特效按钮
 
-要设置为 loading 状态，只要设置 loading 属性为 true 即可。
+将普通的按钮增加特效。
 
 <demo-block>
 ::: slot source
 <button-test3></button-test3>
 :::
 
-要设置为 loading 状态，只要设置 loading 属性为 true 即可。
+要设置为 type 属性，只要设置 type 属性为 （Winona、moema、Pipaluk、Aylen 等） 即可，更多属性值查看后面的表格。
 
 ::: slot highlight
 
 ```
-<sm-button :loading="true">加载中</sm-button>
+<sm-buttonpuls type="Winona">create file</sm-buttonpuls>
+<sm-buttonpuls type="moema">create file</sm-buttonpuls>
+<sm-buttonpuls type="Pipaluk">create file</sm-buttonpuls>
+<sm-buttonpuls type="Aylen">create file</sm-buttonpuls>
 ```
 
 :::
 </demo-block>
-
-<!-- ## 按钮组
-
-以按钮组的方式出现，常用于多项类似操作。
 
 <demo-block>
 ::: slot source
 <button-test4></button-test4>
 :::
 
-使用`<el-button-group>`标签来嵌套你的按钮。
+要设置为 type 属性，只要设置 type 属性为 （Saqui、Nina、Nanuk、Wapasha 等） 即可，更多属性值查看后面的表格。
 
 ::: slot highlight
 
-```html
-<zh-button-group>
-    <zh-button icon="left" position="left">上一页</zh-button>
-    <zh-button icon="right" position="right">下一页</zh-button>
-</zh-button-group>
-
-<zh-button-group>
-    <zh-button icon="edit"></zh-button>
-    <zh-button icon="edit"></zh-button>
-    <zh-button icon="edit"></zh-button>
-</zh-button-group>
+```
+<sm-buttonpuls type="Saqui">create file</sm-buttonpuls>
+<sm-buttonpuls type="Nina">create file</sm-buttonpuls>
+<sm-buttonpuls type="Nanuk">create file</sm-buttonpuls>
+<sm-buttonpuls type="Wapasha">create file</sm-buttonpuls>
 ```
 
 :::
-</demo-block> -->
+</demo-block>
+
+## 图标按钮
+
+给按钮增加图标
+
+<demo-block>
+::: slot source
+<button-test5></button-test5>
+:::
+
+设置 icon 属性，属性值(plus、map-marker、cart、upload) 等
+
+::: slot highlight
+
+```
+<div>
+    <sm-buttonpuls type="Itzel" icon="cart">Add to Cart</sm-buttonpuls>
+    <sm-buttonpuls type="Naira" icon="envelope">Send Message</sm-buttonpuls>
+    <sm-buttonpuls type="Quidel" icon="download">Download</sm-buttonpuls>
+    <sm-buttonpuls type="Sacnite" icon="map-marker">Search</sm-buttonpuls>
+</div>
+```
+
+:::
+</demo-block>
 
 ## Attributes
 
-| 参数     | 说明           | 类型    | 可选值                                      | 默认值  |
-| :------- | :------------- | :------ | :------------------------------------------ | :------ |
-| type     | 类型           | string  | primary / success / warning / danger / info | default |
-| icon     | 图标类名       | string  | -                                           | -       |
-| loading  | 是否加载中状态 | boolean | -                                           | false   |
-| position | 图标位置       | string  | left / right                                | left    |
+### sm-button
+
+| 参数 | 说明 | 类型   | 可选值                                      | 默认值  |
+| :--- | :--- | :----- | :------------------------------------------ | :------ |
+| type | 类型 | string | primary / success / warning / danger / info | default |
+
+### sm-buttonpuls
+
+| 参数 | 说明 | 类型   | 可选值                                                                                    | 默认值 |
+| :--- | :--- | :----- | :---------------------------------------------------------------------------------------- | :----- |
+| type | 类型 | string | Winona、moema、Pipaluk、Aylen、Saqui、Nina、Nanuk、Wapasha、Itzel、Naira、Quidel、Sacnite | Winona |
+| icon | 类型 | string | plus、map-marker、cart、upload、cross、flag、search                                       | -      |
